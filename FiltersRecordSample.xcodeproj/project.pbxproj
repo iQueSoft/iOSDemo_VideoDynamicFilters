@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96DEDB141AD3C21C00694C80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEDB131AD3C21C00694C80 /* AppDelegate.swift */; };
-		96DEDB161AD3C21C00694C80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEDB151AD3C21C00694C80 /* ViewController.swift */; };
-		96DEDB191AD3C21C00694C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DEDB171AD3C21C00694C80 /* Main.storyboard */; };
+		96DEDB141AD3C21C00694C80 /* FRSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEDB131AD3C21C00694C80 /* FRSAppDelegate.swift */; };
 		96DEDB1B1AD3C21C00694C80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DEDB1A1AD3C21C00694C80 /* Images.xcassets */; };
 		96DEDB1E1AD3C21C00694C80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96DEDB1C1AD3C21C00694C80 /* LaunchScreen.xib */; };
 		96DEDB2A1AD3C21C00694C80 /* FiltersRecordSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEDB291AD3C21C00694C80 /* FiltersRecordSampleTests.swift */; };
+		96DEDB361AD3CD4700694C80 /* FRSStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DEDB351AD3CD4700694C80 /* FRSStoryboard.storyboard */; };
+		96DEDB3B1AD3CE2400694C80 /* FRSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEDB3A1AD3CE2400694C80 /* FRSBaseViewController.swift */; };
+		96DEDB3E1AD3CE6500694C80 /* FRSRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEDB3D1AD3CE6500694C80 /* FRSRecordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +29,15 @@
 /* Begin PBXFileReference section */
 		96DEDB0E1AD3C21C00694C80 /* FiltersRecordSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiltersRecordSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DEDB121AD3C21C00694C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96DEDB131AD3C21C00694C80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96DEDB151AD3C21C00694C80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		96DEDB181AD3C21C00694C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96DEDB131AD3C21C00694C80 /* FRSAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRSAppDelegate.swift; sourceTree = "<group>"; };
 		96DEDB1A1AD3C21C00694C80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		96DEDB1D1AD3C21C00694C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		96DEDB231AD3C21C00694C80 /* FiltersRecordSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiltersRecordSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DEDB281AD3C21C00694C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96DEDB291AD3C21C00694C80 /* FiltersRecordSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersRecordSampleTests.swift; sourceTree = "<group>"; };
+		96DEDB351AD3CD4700694C80 /* FRSStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FRSStoryboard.storyboard; sourceTree = "<group>"; };
+		96DEDB3A1AD3CE2400694C80 /* FRSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSBaseViewController.swift; sourceTree = "<group>"; };
+		96DEDB3D1AD3CE6500694C80 /* FRSRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSRecordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,9 @@
 		96DEDB101AD3C21C00694C80 /* FiltersRecordSample */ = {
 			isa = PBXGroup;
 			children = (
-				96DEDB131AD3C21C00694C80 /* AppDelegate.swift */,
-				96DEDB151AD3C21C00694C80 /* ViewController.swift */,
-				96DEDB171AD3C21C00694C80 /* Main.storyboard */,
+				96DEDB371AD3CDD300694C80 /* UI layer */,
+				96DEDB331AD3CCEB00694C80 /* Resources */,
+				96DEDB131AD3C21C00694C80 /* FRSAppDelegate.swift */,
 				96DEDB1A1AD3C21C00694C80 /* Images.xcassets */,
 				96DEDB1C1AD3C21C00694C80 /* LaunchScreen.xib */,
 				96DEDB111AD3C21C00694C80 /* Supporting Files */,
@@ -110,6 +112,55 @@
 				96DEDB281AD3C21C00694C80 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96DEDB331AD3CCEB00694C80 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96DEDB341AD3CD0900694C80 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		96DEDB341AD3CD0900694C80 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				96DEDB351AD3CD4700694C80 /* FRSStoryboard.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		96DEDB371AD3CDD300694C80 /* UI layer */ = {
+			isa = PBXGroup;
+			children = (
+				96DEDB381AD3CDE500694C80 /* ViewControllers */,
+			);
+			path = "UI layer";
+			sourceTree = "<group>";
+		};
+		96DEDB381AD3CDE500694C80 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				96DEDB3C1AD3CE2B00694C80 /* RecordViewController */,
+				96DEDB391AD3CDFD00694C80 /* BaseViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		96DEDB391AD3CDFD00694C80 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96DEDB3A1AD3CE2400694C80 /* FRSBaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		96DEDB3C1AD3CE2B00694C80 /* RecordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96DEDB3D1AD3CE6500694C80 /* FRSRecordViewController.swift */,
+			);
+			path = RecordViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +207,7 @@
 		96DEDB061AD3C21C00694C80 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FRS;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Work;
 				TargetAttributes = {
@@ -192,9 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DEDB191AD3C21C00694C80 /* Main.storyboard in Resources */,
 				96DEDB1E1AD3C21C00694C80 /* LaunchScreen.xib in Resources */,
 				96DEDB1B1AD3C21C00694C80 /* Images.xcassets in Resources */,
+				96DEDB361AD3CD4700694C80 /* FRSStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +264,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DEDB161AD3C21C00694C80 /* ViewController.swift in Sources */,
-				96DEDB141AD3C21C00694C80 /* AppDelegate.swift in Sources */,
+				96DEDB141AD3C21C00694C80 /* FRSAppDelegate.swift in Sources */,
+				96DEDB3E1AD3CE6500694C80 /* FRSRecordViewController.swift in Sources */,
+				96DEDB3B1AD3CE2400694C80 /* FRSBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +289,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		96DEDB171AD3C21C00694C80 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96DEDB181AD3C21C00694C80 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		96DEDB1C1AD3C21C00694C80 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
