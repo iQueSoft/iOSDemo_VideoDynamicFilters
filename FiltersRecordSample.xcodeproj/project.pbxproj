@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76E2F230B588CE6771380F6D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCF53512B591779E718982B /* libPods.a */; };
+		96B7AF381AD5227000CC7580 /* FRSRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7AF371AD5227000CC7580 /* FRSRecordButton.swift */; };
+		96B7AF3A1AD52CAF00CC7580 /* PLABaseViewControllerAlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7AF391AD52CAF00CC7580 /* PLABaseViewControllerAlertExtension.swift */; };
+		96B7AF411AD5341100CC7580 /* DurationStringFromTimeIntervalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B7AF401AD5341100CC7580 /* DurationStringFromTimeIntervalString.m */; };
+		96B7AF441AD5475600CC7580 /* FRSGPUImageWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7AF431AD5475600CC7580 /* FRSGPUImageWrapper.swift */; };
+		96B7AF471AD557E900CC7580 /* FRSFiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B7AF461AD557E900CC7580 /* FRSFiltersViewController.swift */; };
+		96CA264D1AD55FA300A8F449 /* FRSFilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CA264C1AD55FA300A8F449 /* FRSFilterCollectionViewCell.swift */; };
+		96CA26501AD565AE00A8F449 /* FRSBusinessFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CA264F1AD565AE00A8F449 /* FRSBusinessFacade.swift */; };
 		96DEDB141AD3C21C00694C80 /* FRSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEDB131AD3C21C00694C80 /* FRSAppDelegate.swift */; };
 		96DEDB1B1AD3C21C00694C80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DEDB1A1AD3C21C00694C80 /* Images.xcassets */; };
 		96DEDB1E1AD3C21C00694C80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96DEDB1C1AD3C21C00694C80 /* LaunchScreen.xib */; };
@@ -14,6 +22,8 @@
 		96DEDB361AD3CD4700694C80 /* FRSStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96DEDB351AD3CD4700694C80 /* FRSStoryboard.storyboard */; };
 		96DEDB3B1AD3CE2400694C80 /* FRSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEDB3A1AD3CE2400694C80 /* FRSBaseViewController.swift */; };
 		96DEDB3E1AD3CE6500694C80 /* FRSRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEDB3D1AD3CE6500694C80 /* FRSRecordViewController.swift */; };
+		96DEDB441AD3D2A000694C80 /* VRSBlinkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DEDB421AD3D2A000694C80 /* VRSBlinkView.m */; };
+		96DEDB4F1AD4013E00694C80 /* FRSFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DEDB4E1AD4013E00694C80 /* FRSFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39DAD1A40763C74C7C03C4CC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		96B7AF371AD5227000CC7580 /* FRSRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSRecordButton.swift; sourceTree = "<group>"; };
+		96B7AF391AD52CAF00CC7580 /* PLABaseViewControllerAlertExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLABaseViewControllerAlertExtension.swift; sourceTree = "<group>"; };
+		96B7AF3F1AD5341100CC7580 /* DurationStringFromTimeInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DurationStringFromTimeInterval.h; sourceTree = "<group>"; };
+		96B7AF401AD5341100CC7580 /* DurationStringFromTimeIntervalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DurationStringFromTimeIntervalString.m; sourceTree = "<group>"; };
+		96B7AF431AD5475600CC7580 /* FRSGPUImageWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSGPUImageWrapper.swift; sourceTree = "<group>"; };
+		96B7AF461AD557E900CC7580 /* FRSFiltersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSFiltersViewController.swift; sourceTree = "<group>"; };
+		96CA264C1AD55FA300A8F449 /* FRSFilterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSFilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		96CA264F1AD565AE00A8F449 /* FRSBusinessFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSBusinessFacade.swift; sourceTree = "<group>"; };
 		96DEDB0E1AD3C21C00694C80 /* FiltersRecordSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiltersRecordSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DEDB121AD3C21C00694C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96DEDB131AD3C21C00694C80 /* FRSAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRSAppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +57,14 @@
 		96DEDB351AD3CD4700694C80 /* FRSStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FRSStoryboard.storyboard; sourceTree = "<group>"; };
 		96DEDB3A1AD3CE2400694C80 /* FRSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSBaseViewController.swift; sourceTree = "<group>"; };
 		96DEDB3D1AD3CE6500694C80 /* FRSRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSRecordViewController.swift; sourceTree = "<group>"; };
+		96DEDB411AD3D2A000694C80 /* VRSBlinkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSBlinkView.h; sourceTree = "<group>"; };
+		96DEDB421AD3D2A000694C80 /* VRSBlinkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRSBlinkView.m; sourceTree = "<group>"; };
+		96DEDB431AD3D2A000694C80 /* VRSBlinkViewDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRSBlinkViewDefinitions.h; sourceTree = "<group>"; };
+		96DEDB451AD3D3CF00694C80 /* FiltersRecordSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FiltersRecordSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		96DEDB461AD3DCF300694C80 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		96DEDB4E1AD4013E00694C80 /* FRSFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FRSFileManager.swift; sourceTree = "<group>"; };
+		CB2C6F69AA146EA4BE4548BA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		ECCF53512B591779E718982B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E2F230B588CE6771380F6D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +86,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F5035FC6B5E0BD25BAFA4F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB2C6F69AA146EA4BE4548BA /* Pods.debug.xcconfig */,
+				39DAD1A40763C74C7C03C4CC /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44DFFD42B35578CB86F0854E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96DEDB461AD3DCF300694C80 /* AVFoundation.framework */,
+				ECCF53512B591779E718982B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96B7AF351AD5219100CC7580 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				96B7AF361AD521A300CC7580 /* RecordButton */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		96B7AF361AD521A300CC7580 /* RecordButton */ = {
+			isa = PBXGroup;
+			children = (
+				96B7AF371AD5227000CC7580 /* FRSRecordButton.swift */,
+			);
+			path = RecordButton;
+			sourceTree = "<group>";
+		};
+		96B7AF3D1AD533E000CC7580 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				96B7AF3E1AD5341100CC7580 /* DurationStringFromTimeInterval */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		96B7AF3E1AD5341100CC7580 /* DurationStringFromTimeInterval */ = {
+			isa = PBXGroup;
+			children = (
+				96B7AF3F1AD5341100CC7580 /* DurationStringFromTimeInterval.h */,
+				96B7AF401AD5341100CC7580 /* DurationStringFromTimeIntervalString.m */,
+			);
+			path = DurationStringFromTimeInterval;
+			sourceTree = "<group>";
+		};
+		96B7AF421AD5472C00CC7580 /* GPUImageWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				96B7AF431AD5475600CC7580 /* FRSGPUImageWrapper.swift */,
+			);
+			path = GPUImageWrapper;
+			sourceTree = "<group>";
+		};
+		96B7AF451AD5578500CC7580 /* FiltersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				96B7AF461AD557E900CC7580 /* FRSFiltersViewController.swift */,
+			);
+			path = FiltersViewController;
+			sourceTree = "<group>";
+		};
+		96CA264A1AD55F4200A8F449 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				96CA264B1AD55F5B00A8F449 /* FilterCollectionCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		96CA264B1AD55F5B00A8F449 /* FilterCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				96CA264C1AD55FA300A8F449 /* FRSFilterCollectionViewCell.swift */,
+			);
+			path = FilterCollectionCell;
+			sourceTree = "<group>";
+		};
+		96CA264E1AD5657200A8F449 /* Business facade */ = {
+			isa = PBXGroup;
+			children = (
+				96CA264F1AD565AE00A8F449 /* FRSBusinessFacade.swift */,
+			);
+			path = "Business facade";
+			sourceTree = "<group>";
+		};
 		96DEDB051AD3C21C00694C80 = {
 			isa = PBXGroup;
 			children = (
 				96DEDB101AD3C21C00694C80 /* FiltersRecordSample */,
 				96DEDB261AD3C21C00694C80 /* FiltersRecordSampleTests */,
 				96DEDB0F1AD3C21C00694C80 /* Products */,
+				0F5035FC6B5E0BD25BAFA4F3 /* Pods */,
+				44DFFD42B35578CB86F0854E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +200,8 @@
 		96DEDB101AD3C21C00694C80 /* FiltersRecordSample */ = {
 			isa = PBXGroup;
 			children = (
+				96B7AF3D1AD533E000CC7580 /* Helpers */,
+				96DEDB4C1AD400D200694C80 /* Business layer */,
 				96DEDB371AD3CDD300694C80 /* UI layer */,
 				96DEDB331AD3CCEB00694C80 /* Resources */,
 				96DEDB131AD3C21C00694C80 /* FRSAppDelegate.swift */,
@@ -93,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				96DEDB121AD3C21C00694C80 /* Info.plist */,
+				96DEDB451AD3D3CF00694C80 /* FiltersRecordSample-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -133,6 +257,7 @@
 		96DEDB371AD3CDD300694C80 /* UI layer */ = {
 			isa = PBXGroup;
 			children = (
+				96DEDB3F1AD3D27B00694C80 /* Custom elements */,
 				96DEDB381AD3CDE500694C80 /* ViewControllers */,
 			);
 			path = "UI layer";
@@ -141,6 +266,7 @@
 		96DEDB381AD3CDE500694C80 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				96B7AF451AD5578500CC7580 /* FiltersViewController */,
 				96DEDB3C1AD3CE2B00694C80 /* RecordViewController */,
 				96DEDB391AD3CDFD00694C80 /* BaseViewController */,
 			);
@@ -151,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				96DEDB3A1AD3CE2400694C80 /* FRSBaseViewController.swift */,
+				96B7AF391AD52CAF00CC7580 /* PLABaseViewControllerAlertExtension.swift */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -163,6 +290,44 @@
 			path = RecordViewController;
 			sourceTree = "<group>";
 		};
+		96DEDB3F1AD3D27B00694C80 /* Custom elements */ = {
+			isa = PBXGroup;
+			children = (
+				96CA264A1AD55F4200A8F449 /* Cells */,
+				96B7AF351AD5219100CC7580 /* Buttons */,
+				96DEDB401AD3D2A000694C80 /* BlinkView */,
+			);
+			path = "Custom elements";
+			sourceTree = "<group>";
+		};
+		96DEDB401AD3D2A000694C80 /* BlinkView */ = {
+			isa = PBXGroup;
+			children = (
+				96DEDB411AD3D2A000694C80 /* VRSBlinkView.h */,
+				96DEDB421AD3D2A000694C80 /* VRSBlinkView.m */,
+				96DEDB431AD3D2A000694C80 /* VRSBlinkViewDefinitions.h */,
+			);
+			path = BlinkView;
+			sourceTree = "<group>";
+		};
+		96DEDB4C1AD400D200694C80 /* Business layer */ = {
+			isa = PBXGroup;
+			children = (
+				96CA264E1AD5657200A8F449 /* Business facade */,
+				96B7AF421AD5472C00CC7580 /* GPUImageWrapper */,
+				96DEDB4D1AD4011700694C80 /* FileManager */,
+			);
+			path = "Business layer";
+			sourceTree = "<group>";
+		};
+		96DEDB4D1AD4011700694C80 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				96DEDB4E1AD4013E00694C80 /* FRSFileManager.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,9 +335,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96DEDB2D1AD3C21C00694C80 /* Build configuration list for PBXNativeTarget "FiltersRecordSample" */;
 			buildPhases = (
+				9E019FAEC757A9CED5FC8914 /* Check Pods Manifest.lock */,
 				96DEDB0A1AD3C21C00694C80 /* Sources */,
 				96DEDB0B1AD3C21C00694C80 /* Frameworks */,
 				96DEDB0C1AD3C21C00694C80 /* Resources */,
+				85067575D872B3675A2C3C79 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,14 +426,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85067575D872B3675A2C3C79 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E019FAEC757A9CED5FC8914 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96DEDB0A1AD3C21C00694C80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96B7AF3A1AD52CAF00CC7580 /* PLABaseViewControllerAlertExtension.swift in Sources */,
+				96B7AF381AD5227000CC7580 /* FRSRecordButton.swift in Sources */,
 				96DEDB141AD3C21C00694C80 /* FRSAppDelegate.swift in Sources */,
 				96DEDB3E1AD3CE6500694C80 /* FRSRecordViewController.swift in Sources */,
+				96B7AF471AD557E900CC7580 /* FRSFiltersViewController.swift in Sources */,
 				96DEDB3B1AD3CE2400694C80 /* FRSBaseViewController.swift in Sources */,
+				96B7AF441AD5475600CC7580 /* FRSGPUImageWrapper.swift in Sources */,
+				96B7AF411AD5341100CC7580 /* DurationStringFromTimeIntervalString.m in Sources */,
+				96CA264D1AD55FA300A8F449 /* FRSFilterCollectionViewCell.swift in Sources */,
+				96CA26501AD565AE00A8F449 /* FRSBusinessFacade.swift in Sources */,
+				96DEDB441AD3D2A000694C80 /* VRSBlinkView.m in Sources */,
+				96DEDB4F1AD4013E00694C80 /* FRSFileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,23 +590,29 @@
 		};
 		96DEDB2E1AD3C21C00694C80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB2C6F69AA146EA4BE4548BA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FiltersRecordSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FiltersRecordSample/FiltersRecordSample-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		96DEDB2F1AD3C21C00694C80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DAD1A40763C74C7C03C4CC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FiltersRecordSample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FiltersRecordSample/FiltersRecordSample-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -454,6 +669,7 @@
 				96DEDB2F1AD3C21C00694C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96DEDB301AD3C21C00694C80 /* Build configuration list for PBXNativeTarget "FiltersRecordSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +678,7 @@
 				96DEDB321AD3C21C00694C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
