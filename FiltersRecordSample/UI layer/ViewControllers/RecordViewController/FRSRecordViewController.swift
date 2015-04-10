@@ -31,9 +31,9 @@ class FRSRecordViewController: FRSBaseViewController, FRSGPUImageWrapperDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var previewView:GPUImageView = self.view as GPUImageView
+        var previewView:GPUImageView = self.view as! GPUImageView
         
-        var gpuImageWrapper:FRSGPUImageWrapper = FRSGPUImageWrapper(previewView: previewView, orientation: self.interfaceOrientation)
+        var gpuImageWrapper:FRSGPUImageWrapper = FRSGPUImageWrapper(previewView: previewView, orientation: UIApplication.sharedApplication().statusBarOrientation)
         
         gpuImageWrapper.filterType = .Empty
         
@@ -47,11 +47,12 @@ class FRSRecordViewController: FRSBaseViewController, FRSGPUImageWrapperDelegate
     
     override func shouldAutorotate() -> Bool {
         
+        
         if (self.gpuImageWrapper.isRecorded == true) {
             return false
         }
         
-        self.gpuImageWrapper.videoCamera.outputImageOrientation = self.interfaceOrientation
+        self.gpuImageWrapper.videoCamera.outputImageOrientation = UIApplication.sharedApplication().statusBarOrientation
         
         return true
     }
