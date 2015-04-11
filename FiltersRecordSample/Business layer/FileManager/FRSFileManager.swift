@@ -52,8 +52,11 @@ class FRSFileManager: NSObject {
         return error
     }
     
-    func checkFileExists(fileURL:NSURL) -> Bool {
-        return NSFileManager.defaultManager().fileExistsAtPath(fileURL.path!)
+    func checkFileExists(fileURL:NSURL?) -> Bool {
+        if (fileURL == nil) {
+            return false
+        }
+        return NSFileManager.defaultManager().fileExistsAtPath(fileURL!.path!)
     }
     
     // MARK: private

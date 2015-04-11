@@ -79,6 +79,11 @@ class FRSRecordViewController: FRSBaseViewController, FRSGPUImageWrapperDelegate
     }
 
     @IBAction func previewAction(sender: AnyObject) {
+        if (FRSFileManager().checkFileExists(self.gpuImageWrapper.currentVideoURL) == false) {
+            self.showOkAlert("You should record a video first.", message: nil)
+            return
+        }
+        
         self.previewVideo(self.gpuImageWrapper.currentVideoURL)
     }
     
@@ -91,6 +96,11 @@ class FRSRecordViewController: FRSBaseViewController, FRSGPUImageWrapperDelegate
     }
     
     @IBAction func saveAction(sender: UIButton) {
+        
+        if (FRSFileManager().checkFileExists(self.gpuImageWrapper.currentVideoURL) == false) {
+            self.showOkAlert("You should record a video first.", message: nil)
+            return
+        }
         
         MBProgressHUD.showHUDAddedTo(self.view, animated: true)
         
