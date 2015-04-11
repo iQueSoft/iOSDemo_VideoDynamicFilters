@@ -1,9 +1,9 @@
 //
 //  VRSBlinkView.m
-//  Diddeo
+//  FiltersRecordSample
 //
 //  Created by Ruslan Shevtsov on 9/19/13.
-//  Copyright (c) 2013 Work. All rights reserved.
+//  Copyright (c) 2013 iQueSoft rights reserved.
 //
 
 #import "VRSBlinkView.h"
