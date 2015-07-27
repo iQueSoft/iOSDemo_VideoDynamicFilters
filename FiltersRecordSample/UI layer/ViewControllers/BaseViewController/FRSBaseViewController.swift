@@ -16,7 +16,7 @@ class FRSBaseViewController: UIViewController {
         if (fileURL == nil) {
             return
         }
-        var movieController:MPMoviePlayerViewController = MPMoviePlayerViewController(contentURL: fileURL)
+        let movieController:MPMoviePlayerViewController = MPMoviePlayerViewController(contentURL: fileURL)
         self.presentMoviePlayerViewControllerAnimated(movieController)
     }
 

@@ -25,7 +25,7 @@ class FRSFilterCollectionViewCell: UICollectionViewCell {
         
         self.filterType = filterType
         
-        var filter:GPUImageFilter? = gpuImageWrapper.filterForType(filterType)
+        let filter:GPUImageFilter? = gpuImageWrapper.filterForType(filterType)
         
         if (filter == nil) {
             gpuImageWrapper.videoCamera.addTarget(self.previewView)

@@ -30,10 +30,10 @@ class FRSBusinessFacade: NSObject {
     // MARK: Save video
     
     func saveVideo() {
-        var path:String? = self.gpuImageWrapper.currentVideoURL?.path
+        let path:String? = self.gpuImageWrapper.currentVideoURL?.path
         
         if (path != nil) {
-            UISaveVideoAtPathToSavedPhotosAlbum(path, self, "video:didFinishSavingWithError:contextInfo:", nil)
+            UISaveVideoAtPathToSavedPhotosAlbum(path!, self, "video:didFinishSavingWithError:contextInfo:", nil)
         }
     }
     

@@ -16,7 +16,7 @@ class FRSRecordButton: UIButton {
         self.layer.borderColor = UIColor.whiteColor().CGColor
         self.layer.borderWidth = 3.0
         
-        var cornerRadius:CGFloat = self.frame.height / 2.0
+        let cornerRadius:CGFloat = self.frame.height / 2.0
         self.layer.cornerRadius = cornerRadius
     }
 

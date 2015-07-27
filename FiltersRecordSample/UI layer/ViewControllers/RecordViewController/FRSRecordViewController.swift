@@ -31,10 +31,10 @@ class FRSRecordViewController: FRSBaseViewController, FRSGPUImageWrapperDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var previewView:GPUImageView = self.view as! GPUImageView
+        let previewView:GPUImageView = self.view as! GPUImageView
         previewView.fillMode = kGPUImageFillModePreserveAspectRatioAndFill
         
-        var gpuImageWrapper:FRSGPUImageWrapper = FRSGPUImageWrapper(previewView: previewView, orientation: UIApplication.sharedApplication().statusBarOrientation)
+        let gpuImageWrapper:FRSGPUImageWrapper = FRSGPUImageWrapper(previewView: previewView, orientation: UIApplication.sharedApplication().statusBarOrientation)
         
         gpuImageWrapper.filterType = .Empty
         

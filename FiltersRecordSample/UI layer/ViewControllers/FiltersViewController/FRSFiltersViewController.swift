@@ -24,17 +24,17 @@ class FRSFiltersViewController: FRSBaseViewController, UICollectionViewDelegate,
     
     func collectionView(collectionView: UICollectionView, willDisplayCell cell: UICollectionViewCell, forItemAtIndexPath indexPath: NSIndexPath) {
         
-        var gpuImageWrapper:FRSGPUImageWrapper = FRSBusinessFacade.sharedInstance.gpuImageWrapper
+        let gpuImageWrapper:FRSGPUImageWrapper = FRSBusinessFacade.sharedInstance.gpuImageWrapper
         (cell as! FRSFilterCollectionViewCell).setupCell(FRSFilter(rawValue: indexPath.row)!, gpuImageWrapper: gpuImageWrapper)
 
     }
     
     func collectionView(collectionView: UICollectionView, didEndDisplayingCell cell: UICollectionViewCell, forItemAtIndexPath indexPath: NSIndexPath) {
-        var gpuImageWrapper:FRSGPUImageWrapper = FRSBusinessFacade.sharedInstance.gpuImageWrapper
-        var filterCell:FRSFilterCollectionViewCell = cell as! FRSFilterCollectionViewCell
+        let gpuImageWrapper:FRSGPUImageWrapper = FRSBusinessFacade.sharedInstance.gpuImageWrapper
+        let filterCell:FRSFilterCollectionViewCell = cell as! FRSFilterCollectionViewCell
         
-        if let filtersGroup = filterCell.filtersGroup {
-            gpuImageWrapper.videoCamera.removeTarget(filterCell.filtersGroup)
+        if let tempFiltersGroup = filterCell.filtersGroup {
+            gpuImageWrapper.videoCamera.removeTarget(tempFiltersGroup)
         } else {
             gpuImageWrapper.videoCamera.removeTarget(filterCell.previewView)
         }
@@ -47,10 +47,10 @@ class FRSFiltersViewController: FRSBaseViewController, UICollectionViewDelegate,
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        var cell:FRSFilterCollectionViewCell = collectionView.dequeueReusableCellWithReuseIdentifier(kFilterCollectionViewCellIdentifier, forIndexPath: indexPath) as! FRSFilterCollectionViewCell
+        let cell:FRSFilterCollectionViewCell = collectionView.dequeueReusableCellWithReuseIdentifier(kFilterCollectionViewCellIdentifier, forIndexPath: indexPath) as! FRSFilterCollectionViewCell
         
-        var cellFilter:FRSFilter = FRSFilter(rawValue: indexPath.row)!
-        var currentFilter:FRSFilter = FRSBusinessFacade.sharedInstance.gpuImageWrapper.filterType
+        let cellFilter:FRSFilter = FRSFilter(rawValue: indexPath.row)!
+        let currentFilter:FRSFilter = FRSBusinessFacade.sharedInstance.gpuImageWrapper.filterType
         
         if (cellFilter == currentFilter) {
             cell.layer.borderColor = UIColor.redColor().CGColor

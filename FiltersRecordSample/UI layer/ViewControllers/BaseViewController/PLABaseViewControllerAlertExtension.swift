@@ -13,7 +13,7 @@ extension FRSBaseViewController {
     // MARK: Show alert
     
     func showOkAlert(title: String?, message: String?) {
-        var refreshAlert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        let refreshAlert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
         refreshAlert.addAction(UIAlertAction(title: "OK", style: .Default, handler: { (action: UIAlertAction!) in
             refreshAlert.dismissViewControllerAnimated(true, completion: nil)
         }))
